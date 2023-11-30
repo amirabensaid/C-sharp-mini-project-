@@ -1,0 +1,15 @@
+{
+  "version": "0.2.1",
+  "tasks": [
+    {
+      "taskLabel": "task-MyReadingClub",
+      "appliesTo": "MyReadingClub.Web/",
+      "type": "launch"
+    },
+    {
+      "taskLabel": "task-Program",
+      "appliesTo": "MyReadingClub.Web/Program.cs",
+      "type": "launch"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+from controllers.login_controller import LoginController
+from controllers.dashboard_controller import DashboardController
+from controllers.space_controller import SpaceController
+from controllers.personal_controller import PersonalController
+
+def main():
+    # Instantiate controllers
+    login_controller = LoginController()
+    dashboard_controller = DashboardController()
+    space_controller = SpaceController()
+    personal_controller = PersonalController()
+
+    # Start the application
+    login_controller.show_login_page()
+
+if __name__ == "__main__":
+    main()
